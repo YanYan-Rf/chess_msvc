@@ -1,0 +1,76 @@
+Detecting compiler hash for triplet x64-windows...
+-- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7897".
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * cgltf:x64-windows@1.15
+  * dirent:x64-windows@1.26
+  * drlibs:x64-windows@2026-03-03
+  * glfw3:x64-windows@3.5.1
+  * miniaudio:x64-windows@0.11.26
+  * mmx:x64-windows@2025-03-19
+  * nanosvg:x64-windows@2023-12-29
+  * qoi:x64-windows@2026-09-27
+    raylib[audio,core]:x64-windows@6.2
+  * stb:x64-windows@2026-08-02
+  * vcpkg-cmake:x64-windows@2025-08-07
+  * vcpkg-cmake-config:x64-windows@2026-07-21
+Additional packages (*) will be modified to complete this operation.
+Restored 12 package(s) from C:\Users\Administrator\AppData\Local\vcpkg\archives in 131 ms. Use --debug to see more details.
+Installing 1/12 vcpkg-cmake-config:x64-windows@2026-07-21...
+vcpkg-cmake-config:x64-windows@2026-07-21 package ABI: 58eacc3cc2c117dedc80259f48f1656424201450139ea7b405b0ae02f787bb41
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 20.3 ms
+Installing 2/12 vcpkg-cmake:x64-windows@2025-08-07...
+vcpkg-cmake:x64-windows@2025-08-07 package ABI: ff93d9becb79ca1632ed842292d8c08d574a46e1405f06458b1c38bfa1a64797
+Elapsed time to handle vcpkg-cmake:x64-windows: 17.2 ms
+Installing 3/12 stb:x64-windows@2026-08-02...
+stb:x64-windows@2026-08-02 package ABI: a151d7b53f9d532537f4500f2d9d9c622c8b5288c4c3dd29dd4c6863d7ab0913
+Elapsed time to handle stb:x64-windows: 86.3 ms
+Installing 4/12 qoi:x64-windows@2026-09-27...
+qoi:x64-windows@2026-09-27 package ABI: 7ff483a53de656128f149e706c0498b973470c9460e44da00e956a1f0731b767
+Elapsed time to handle qoi:x64-windows: 24.2 ms
+Installing 5/12 nanosvg:x64-windows@2023-12-29...
+nanosvg:x64-windows@2023-12-29 package ABI: 4694e37db417b4e9254c8741ad5a93acbd08746a54bdf6864089b7980e3dd757
+Elapsed time to handle nanosvg:x64-windows: 47.1 ms
+Installing 6/12 mmx:x64-windows@2025-03-19...
+mmx:x64-windows@2025-03-19 package ABI: 3dac7401bd8134b2cb152e9d1c29202cf2bb1efa3d6fb0b1034942136ca5fae0
+Elapsed time to handle mmx:x64-windows: 29.2 ms
+Installing 7/12 glfw3:x64-windows@3.5.1...
+glfw3:x64-windows@3.5.1 package ABI: bd1a6fab5c9db7e709e374c2762965d59132cc16a5c4a49eaf7f79f8ce5d7f03
+Elapsed time to handle glfw3:x64-windows: 53.7 ms
+Installing 8/12 dirent:x64-windows@1.26...
+dirent:x64-windows@1.26 package ABI: df710665830aff45345d93decfb19e0275fe886ae8b8591707f90bed6e93384a
+Elapsed time to handle dirent:x64-windows: 18.7 ms
+Installing 9/12 cgltf:x64-windows@1.15...
+cgltf:x64-windows@1.15 package ABI: e55838f0558109cbea280b0acfd27360a80f786c8fc4630f132c3ec6a44c469b
+Elapsed time to handle cgltf:x64-windows: 25.7 ms
+Installing 10/12 miniaudio:x64-windows@0.11.26...
+miniaudio:x64-windows@0.11.26 package ABI: 831025982e87f0a9215c7657cccecaf6721b74d56ab45587517276335fa4ba72
+Elapsed time to handle miniaudio:x64-windows: 132 ms
+Installing 11/12 drlibs:x64-windows@2026-03-03...
+drlibs:x64-windows@2026-03-03 package ABI: 656f11f04b97ca3a3cd93ee70ae169627be70ea10bba68f30521295059bb177a
+Elapsed time to handle drlibs:x64-windows: 61.3 ms
+Installing 12/12 raylib[audio,core]:x64-windows@6.2...
+raylib[audio,core]:x64-windows@6.2 package ABI: 29a4573af73640d9f9dc28b2cf79207a17bfde93416b9cf6bd53be28f7673de7
+Elapsed time to handle raylib:x64-windows: 471 ms
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Some packages did not declare an SPDX license. Check the `copyright` file for each package for more information about their licensing.
+Packages installed in this vcpkg installation declare the following licenses:
+(Unlicense OR MIT-0)
+(WTFPL OR CC0-1.0)
+Apache-2.0
+LicenseRef-dirent
+MIT
+WTFPL
+Zlib
+raylib provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(raylib CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE raylib)
+
+raylib provides pkg-config modules:
+
+  # A simple and easy-to-use library to enjoy videogames programming
+  raylib
+
+All requested installations completed successfully in: 1 s
